@@ -1,0 +1,87 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+pip-wheel-metadata/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+secrets/
+
+# Streamlit / local app state
+.streamlit/secrets.toml
+
+# ML / Ultralytics caches & weights
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+ultralytics/
+.cache/
+~/.cache/
+
+# Media outputs (keep royalty-free demo sources under samples/)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+!samples/
+!samples/**/*.mp4
+!samples/**/*.avi
+!samples/**/*.mov
+!samples/**/*.mkv
+!samples/**/*.webm
+
+# Generated artifacts
+outputs/
+output/
+tmp/
+temp/
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Hugging Face / Space local
+.hf/
+*.safetensors
